@@ -1,11 +1,12 @@
 import React from "react";
 import CertificateIcon from "../../assets/certificate.png";
+import Shadow from "../../assets/shadows/4.png";
 import Misc from "../../assets/misc/3.svg";
 
 const Certificate = () => {
   return (
     <div className="relative mb-[150px]">
-      <div className="max-w-container mx-auto flex">
+      <div className="max-w-container mx-auto flex relative z-10">
         <div className="flex flex-col justify-between flex-shrink-0 pr-16">
           <div>
             <p className="uppercase font-semibold text-sm text-warning mb-8">
@@ -40,6 +41,7 @@ const Certificate = () => {
           </div>
         </div>
       </div>
+      <img src={Shadow} className="absolute top-1/2 right-0 -translate-y-1/2" alt=":( Not Found" />
     </div>
   );
 };

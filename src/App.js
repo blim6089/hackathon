@@ -8,11 +8,13 @@ import Certificate from "./components/features/Certificate";
 import Technologies from "./components/features/Technologies";
 import UsefulResources from "./components/features/UsefulResources";
 import Faqs from "./components/features/Faqs";
+import Competition from "./components/features/Competition";
 
 const App = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       <Header />
+      <Competition />
       <Certificate />
       <Technologies />
       <UsefulResources />

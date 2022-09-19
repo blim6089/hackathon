@@ -11,7 +11,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="px-5 py-10">
+    <div className="px-5 py-10 relative z-10">
       <div className="max-w-container mx-auto flex justify-between items-center relative">
         <img src={Logo} className="opacity-50" alt="logo" />
         <ul className="absolute left-1/2 -translate-x-1/2 flex">

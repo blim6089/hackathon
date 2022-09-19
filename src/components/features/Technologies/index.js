@@ -43,8 +43,8 @@ const Technologies = () => {
           <Button>Register</Button>
         </div>
         <div className="flex justify-between">
-          {data.map((item) => (
-            <div className="max-w-[360px]">
+          {data.map((item, index) => (
+            <div className="max-w-[360px]" key={index}>
               <Technology {...item} />
             </div>
           ))}
