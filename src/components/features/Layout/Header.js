@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../Button";
-import Logo from "../../assets/logo.svg";
+import Button from "../../common/Button";
+import Logo from "../../../assets/logo.svg";
 
 const Header = () => {
   const routes = [

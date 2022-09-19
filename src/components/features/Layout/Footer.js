@@ -1,11 +1,11 @@
 import React from "react";
-import Button from "../../components/Button";
-import Logo from "../../assets/logo.svg";
-import Facebook from "../../assets/icons/facebook.svg";
-import Twitter from "../../assets/icons/twitter.svg";
-import Linkedin from "../../assets/icons/linkedin.svg";
-import Youtube from "../../assets/icons/youtube.svg";
-import Shadow from "../../assets/shadows/1.png";
+import Button from "../../common/Button";
+import Logo from "../../../assets/logo.svg";
+import Facebook from "../../../assets/icons/facebook.svg";
+import Twitter from "../../../assets/icons/twitter.svg";
+import Linkedin from "../../../assets/icons/linkedin.svg";
+import Youtube from "../../../assets/icons/youtube.svg";
+import Shadow from "../../../assets/shadows/1.png";
 
 const Footer = () => {
   return (
@@ -61,7 +61,11 @@ const Footer = () => {
           <Button>Join Slack</Button>
         </div>
       </div>
-      <img src={Shadow} alt="shadow" className="absolute bottom-0 left-0" />
+      <img
+        src={Shadow}
+        alt="shadow"
+        className="absolute bottom-0 left-0 z-[-1]"
+      />
     </div>
   );
 };
