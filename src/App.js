@@ -4,14 +4,16 @@ import Header from "./components/features/Layout/Header";
 import Footer from "./components/features/Layout/Footer";
 import SubscribeEmail from "./components/features/SubscribeEmail";
 import Sponsors from "./components/features/Sponsors";
-import Faqs from "./components/features/Faqs";
-import UsefulResources from "./components/features/UsefulResources";
+import Certificate from "./components/features/Certificate";
 import Technologies from "./components/features/Technologies";
+import UsefulResources from "./components/features/UsefulResources";
+import Faqs from "./components/features/Faqs";
 
 const App = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       <Header />
+      <Certificate />
       <Technologies />
       <UsefulResources />
       <Faqs />

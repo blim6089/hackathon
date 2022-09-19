@@ -12,7 +12,11 @@ const Collapse = ({ title, content }) => {
           {title}
         </p>
         <button className="absolute right-0" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <img src={Up} /> : <img src={Down} />}
+          {isOpen ? (
+            <img src={Up} alt=":( Not found" />
+          ) : (
+            <img src={Down} alt=":( Not Found" />
+          )}
         </button>
       </div>
       <div
