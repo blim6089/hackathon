@@ -32,7 +32,7 @@ const UsefulResources = () => {
   ];
 
   return (
-    <div className="max-w-container mx-auto flex flex-col items-center mb-[150px]">
+    <div className="relative max-w-container mx-auto flex flex-col items-center mb-[150px] z-10">
       <p className="uppercase font-semibold text-sm leading-5 text-warning text-center mb-8">
         Resources
       </p>
@@ -42,9 +42,9 @@ const UsefulResources = () => {
         </p>
         <img src={Underline} alt=":( Not Found" className="mb-[72px]" />
       </div>
-      <div className="w-full flex flex-wrap -mx-4 mb-4">
+      <div className="w-full flex flex-wrap mb-4">
         {resources.map((resource, index) => (
-          <div key={index} className="w-1/2 px-4 mb-12">
+          <div key={index} className="w-1/2 odd:pr-4 even:pl-4 mb-12">
             <Resource {...resource} />
           </div>
         ))}
