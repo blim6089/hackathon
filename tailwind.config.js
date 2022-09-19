@@ -13,6 +13,7 @@ module.exports = {
         "hover-success": "#A8CE2E",
         dark: "#142038",
         gray: "#8D8D8D",
+        light: "#F8F8F8",
       },
       boxShadow: {
         "button-warning": "0px 10px 30px rgba(255, 120, 44, 0.3)",
