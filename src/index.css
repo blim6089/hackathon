@@ -8,3 +8,7 @@ body * {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+
+select {
+  appearance: none;
+}

@@ -10,7 +10,7 @@ const Competition = () => {
   return (
     <div className="max-w-container mx-auto mb-[150px] relative z-10">
       <div className="flex flex-col items-center mb-[100px] relative">
-        <p className="font-semibold text-sm text-warning leading-5 mb-8 text-center">
+        <p className="uppercase font-semibold text-sm text-warning leading-5 mb-8 text-center">
           competition
         </p>
         <p className="font-semibold text-5xl leading-[64px] text-dark text-center">

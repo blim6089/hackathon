@@ -2,6 +2,8 @@ import React from "react";
 
 import Header from "./components/features/Layout/Header";
 import Footer from "./components/features/Layout/Footer";
+import Register from "./components/features/Register";
+import About from "./components/features/About";
 import SubscribeEmail from "./components/features/SubscribeEmail";
 import Sponsors from "./components/features/Sponsors";
 import Certificate from "./components/features/Certificate";
@@ -14,6 +16,8 @@ const App = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       <Header />
+      <Register />
+      <About />
       <Competition />
       <Certificate />
       <Technologies />

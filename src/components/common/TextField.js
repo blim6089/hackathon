@@ -17,8 +17,8 @@ const TextField = ({
           value={value}
           onChange={(e) => onChange(e)}
           className={`w-full ${
-            size === `md` ? `h-12` : `h-16`
-          } bg-white border border-[#14203810] rounded-2xl px-5 text-sm text-black outline-none`}
+            size === `md` ? `h-12 rounded-xl px-4` : `h-16 rounded-2xl px-5`
+          } bg-white border border-[#14203810] text-sm text-black outline-none`}
         />
       ) : (
         <textarea
