@@ -9,7 +9,7 @@ import SponsorAvatar6 from "../../assets/sponsors/6.png";
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center relative z-10">
       <span className="font-semibold text-sm text-warning leading-5 uppercase mb-8">
         parters
       </span>

@@ -45,9 +45,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-[#F5F5F5]">
       <Header />
-      <div className="max-w-container mx-auto my-[150px]">
-        <Faqs data={faqs} />
-      </div>
+      <Faqs data={faqs} />
       <div className="max-w-5xl mx-auto my-[150px]">
         <Sponsors />
       </div>
