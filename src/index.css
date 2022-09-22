@@ -12,3 +12,7 @@ body * {
 select {
   appearance: none;
 }
+
+.slick-arrow {
+  display: none!important;
+}

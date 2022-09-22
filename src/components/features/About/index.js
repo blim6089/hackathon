@@ -12,11 +12,7 @@ import Avatars from "../../../assets/avatars.png";
 const About = () => {
   return (
     <div className="w-full relative mb-[137px]">
-      <img
-        src={Shadow}
-        className="absolute left-0 top-10"
-        alt=":( Not Found"
-      />
+      <img src={Shadow} className="absolute left-0 top-10" alt=":( Not Found" />
       <div className="w-full max-w-container mx-auto relative z-10">
         <div className="relative flex justify-between pb-[150px] border-dashed border-b border-b-[#00000040]">
           <img
