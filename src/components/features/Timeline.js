@@ -71,9 +71,9 @@ const Timeline = () => {
             alt=":( Not Found"
           />
         </div>
-        <div className="flex -mx-3">
+        <div className="flex">
           <img
-            className={`mx-3 cursor-pointer ${
+            className={`cursor-pointer ${
               index === 0 ? `opacity-20` : `opacity-100`
             }`}
             onClick={handleBack}
@@ -81,7 +81,7 @@ const Timeline = () => {
             alt="previous"
           />
           <img
-            className={`mx-3 cursor-pointer ${
+            className={`ml-6 cursor-pointer ${
               index === items.length - 1 ? `opacity-20` : `opacity-100`
             }`}
             onClick={handleNext}
